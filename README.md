@@ -4,8 +4,8 @@ Building the RISC OS Software
 A number of the repositories here contain software for RISC OS, which can be built under the [GCCSDK](http://www.riscos.info/index.php/GCCSDK). This document gives an overview of the environment required to use the source code.
 
 
-Installing a build environment
-------------------------------
+Set up the environment
+----------------------
 
 To build the software found here, it will be necessary to have suitable Linux system with a working installation of the [GCCSDK](http://www.riscos.info/index.php/GCCSDK). It will also be necessary to install a number of additional tools.
 
@@ -19,6 +19,10 @@ In addition, three folders will be required for the "SFTools" build environment.
 	export SFTOOLS_BIN=/home/steve/sftools/bin
 	export SFTOOLS_BASIC=/home/steve/sftools/basic
 	export SFTOOLS_MAKE=/home/steve/sftools/make
+
+
+Build OSLib
+-----------
 
 It will be necessary to build OSLib using the GCCSDK Autobuilder:
 
@@ -39,6 +43,10 @@ At this point, the BindHelp utility used by OSLib to make a StrongHelp manual ca
 
 	mkdir -p $SFTOOLS_BIN
 	cp Bin/bindhelp $SFTOOLS_BIN
+
+
+Build the SFTools
+-----------------
 
 It is now a case of cloning a number of build tools. Returning to your development folder, clone the following two repositories:
 
