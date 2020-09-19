@@ -67,7 +67,7 @@ Since ManTools is required to fully build the Makefiles, you should now return t
 	cd ../mantools
 	make install
 
-With these in place, we can clone the remaining tools, in each case entering the folder and running `make install` to build and install the component.
+With these in place, clone the remaining tools, in each case entering the folder and running `make install` to build and install the component. Again, these depend on each other, so it's essential that they are made in the order shown in the list.
 
 * packtools.git
 * tokenize.git
