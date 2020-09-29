@@ -73,6 +73,7 @@ With these in place, clone the remaining tools, in each case entering the folder
 * tokenize.git
 * menugen.git
 * wimplib.git
+* swiheader.git
 * flexlib.git
 * sflib.git
 
